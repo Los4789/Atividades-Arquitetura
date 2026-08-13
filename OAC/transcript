@@ -1,0 +1,114 @@
+# Compile of tb_mux.sv was successful.
+# Compile of mux.sv was successful.
+# 2 compiles, 0 failed with no errors.
+# Load canceled
+vsim -gui work.tb_mux
+# vsim -gui work.tb_mux 
+# Start time: 13:13:35 on Aug 13,2026
+# Loading sv_std.std
+# Loading work.tb_mux
+# Loading work.mux
+add wave -position end  sim:/tb_mux/count
+add wave -position end  sim:/tb_mux/muxOut
+add wave -position end  sim:/tb_mux/dut/f
+add wave -position end  sim:/tb_mux/dut/a
+add wave -position end  sim:/tb_mux/dut/b
+add wave -position end  sim:/tb_mux/dut/sel
+add wave -position end  sim:/tb_mux/dut/f1
+add wave -position end  sim:/tb_mux/dut/n_sel
+add wave -position end  sim:/tb_mux/dut/f2
+run -all
+#                    0a = 0 | b = 0 | sel = 0 | muxOut = 0
+#                   10a = 0 | b = 0 | sel = 1 | muxOut = 0
+#                   20a = 0 | b = 1 | sel = 0 | muxOut = 0
+#                   30a = 0 | b = 1 | sel = 1 | muxOut = 1
+#                   40a = 1 | b = 0 | sel = 0 | muxOut = 1
+#                   50a = 1 | b = 0 | sel = 1 | muxOut = 0
+#                   60a = 1 | b = 1 | sel = 0 | muxOut = 1
+#                   70a = 1 | b = 1 | sel = 1 | muxOut = 1
+# ** Note: $stop    : D:/Users/los4/Documents/OAC/tb_mux.sv(12)
+#    Time: 80 ns  Iteration: 0  Instance: /tb_mux
+# Break in Module tb_mux at D:/Users/los4/Documents/OAC/tb_mux.sv line 12
+# Compile of tb_mux.sv failed with 6 errors.
+# Compile of mux.sv was successful.
+# 2 compiles, 1 failed with 6 errors.
+# Compile of tb_mux.sv failed with 6 errors.
+# Compile of mux.sv was successful.
+# 2 compiles, 1 failed with 6 errors.
+# Compile of tb_mux.sv was successful.
+# Compile of mux.sv was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.tb_mux
+# End time: 14:03:46 on Aug 13,2026, Elapsed time: 0:50:11
+# Errors: 0, Warnings: 8
+# vsim -gui work.tb_mux 
+# Start time: 14:03:46 on Aug 13,2026
+# Loading sv_std.std
+# Loading work.tb_mux
+# Loading work.mux
+run -all
+#  Tempo | Sel2 Sel1 |       Saida f (Hexadecimal)
+#    0 ns |   0    0   | 0xaaaaaaaa
+# 10000 ns |   0    1   | 0xbbbbbbbb
+# 20000 ns |   1    0   | 0xcccccccc
+# 30000 ns |   1    1   | 0xdddddddd
+# 
+# 
+# ** Note: $stop    : D:/Users/los4/Documents/OAC/tb_mux.sv(30)
+#    Time: 40 ns  Iteration: 0  Instance: /tb_mux
+# Break in Module tb_mux at D:/Users/los4/Documents/OAC/tb_mux.sv line 30
+add wave -position end  sim:/tb_mux/a
+add wave -position end  sim:/tb_mux/b
+add wave -position end  sim:/tb_mux/c
+add wave -position end  sim:/tb_mux/d
+add wave -position end  sim:/tb_mux/Sel1
+add wave -position end  sim:/tb_mux/Sel2
+add wave -position end  sim:/tb_mux/f
+add wave -position end  sim:/tb_mux/count
+add wave -position end  sim:/tb_mux/SelAll
+run -all
+# Compile of tb_mux.sv was successful.
+# Compile of mux.sv was successful.
+# 2 compiles, 0 failed with no errors.
+run -all
+vsim -gui work.tb_mux
+# End time: 14:07:29 on Aug 13,2026, Elapsed time: 0:03:43
+# Errors: 0, Warnings: 2
+# vsim -gui work.tb_mux 
+# Start time: 14:07:29 on Aug 13,2026
+# Loading sv_std.std
+# Loading work.tb_mux
+# Loading work.mux
+run -all
+#  Tempo | Sel2 Sel1 |       Saida f (Hexadecimal)
+#    0 ns |   0    0   | 0xaaaaaaaa
+# 10000 ns |   0    1   | 0xbbbbbbbb
+# 20000 ns |   1    0   | 0xcccccccc
+# 30000 ns |   1    1   | 0xdddddddd
+# 
+# 
+# ** Note: $stop    : D:/Users/los4/Documents/OAC/tb_mux.sv(30)
+#    Time: 40 ns  Iteration: 0  Instance: /tb_mux
+# Break in Module tb_mux at D:/Users/los4/Documents/OAC/tb_mux.sv line 30
+# Compile of tb_mux.sv was successful.
+# Compile of mux.sv was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.tb_mux
+# End time: 14:10:43 on Aug 13,2026, Elapsed time: 0:03:14
+# Errors: 0, Warnings: 2
+# vsim -gui work.tb_mux 
+# Start time: 14:10:43 on Aug 13,2026
+# Loading sv_std.std
+# Loading work.tb_mux
+# Loading work.mux
+run -all
+#  Tempo | Sel2 Sel1 |       Saida f (Hexadecimal)
+#    0 ns |   0    0   | 0xaaaaaaaa
+# 10000 ns |   0    1   | 0xbbbbbbbb
+# 20000 ns |   1    0   | 0xcccccccc
+# 30000 ns |   1    1   | 0xdddddddd
+# 
+# 
+# ** Note: $stop    : D:/Users/los4/Documents/OAC/tb_mux.sv(30)
+#    Time: 40 ns  Iteration: 0  Instance: /tb_mux
+# Break in Module tb_mux at D:/Users/los4/Documents/OAC/tb_mux.sv line 30

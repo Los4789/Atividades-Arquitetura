@@ -1,0 +1,33 @@
+`timescale 1ns/1ps
+
+module tb_mux;
+  logic [31:0] a, b, c, d;
+  logic Sel1, Sel2;
+  logic [31:0] f;
+
+  mux dut (.f(f), .a(a), .b(b), .c(c), .d(d), .Sel1(Sel1), .Sel2(Sel2) );
+
+  logic [1:0] SelAll;
+  assign {Sel2, Sel1} = SelAll;
+
+  initial begin
+
+    //Valores fáceis de ver em hexadecimal
+    a = 32'hAAAA_AAAA;
+    b = 32'hBBBB_BBBB;
+    c = 32'hCCCC_CCCC;
+    d = 32'hDDDD_DDDD;
+
+    $display(" Tempo | Sel2 Sel1 |       Saida f (Hexadecimal)");
+    $monitor("%4t ns |   %b    %b   | 0x%h", $time, Sel2, Sel1, f);
+
+    for (unsigned char i = 0; i < 4; i++) begin
+      SelAll = i[1:0];
+      #10;
+    end
+
+    $display("\n");
+    $stop;
+  end
+
+endmodule: tb_mux

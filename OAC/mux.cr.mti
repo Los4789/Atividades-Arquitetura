@@ -1,0 +1,11 @@
+D:/Users/los4/Documents/OAC/tb_mux.sv {0 {vlog -work work -sv -stats=none D:/Users/los4/Documents/OAC/tb_mux.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module tb_mux
+** Error: (vlog-13069) D:/Users/los4/Documents/OAC/tb_mux.sv(24): near "unsigned": syntax error, unexpected unsigned, expecting ';'.
+** Error: D:/Users/los4/Documents/OAC/tb_mux.sv(24): (vlog-2730) Undefined variable: 'i'.
+** Error: (vlog-13069) D:/Users/los4/Documents/OAC/tb_mux.sv(24): near ")": syntax error, unexpected ')', expecting ';'.
+** Error: D:/Users/los4/Documents/OAC/tb_mux.sv(29): (vlog-13161) unexpected '$display', expecting elaboration system task $fatal/$error/$warning/$info.
+** Error: D:/Users/los4/Documents/OAC/tb_mux.sv(30): (vlog-13161) unexpected '$stop', expecting elaboration system task $fatal/$error/$warning/$info.
+** Error: (vlog-13069) D:/Users/los4/Documents/OAC/tb_mux.sv(31): near "end": syntax error, unexpected end.
+
+} {4.0 10.0} {}}
