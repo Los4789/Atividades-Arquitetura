@@ -1,0 +1,286 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/InstallModelSim
+vsc_alu
+Z0 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+Z1 !s110 1789482136
+!i10b 1
+!s100 Uk803E`ZU>AHHI7@Eeg>51
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I0S=MjjDnaGl8[5Wi<2T7g0
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+S1
+Z4 dD:/Users/rsm7/Downloads/risc-v-single-cycle-processor/modelsim
+Z5 w1789481095
+8D:/Users/rsm7/Downloads/risc-v-single-cycle-processor/sc_alu.sv
+FD:/Users/rsm7/Downloads/risc-v-single-cycle-processor/sc_alu.sv
+!i122 1
+L0 18 26
+Z6 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z7 !s108 1789482136.000000
+!s107 D:/Users/rsm7/Downloads/risc-v-single-cycle-processor/sc_alu.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/Users/rsm7/Downloads/risc-v-single-cycle-processor/sc_alu.sv|
+!i113 1
+Z8 o-work work -sv
+Z9 tCvgOpt 0
+vsc_alu_ctrl
+R0
+R1
+!i10b 1
+!s100 PaQWR?iz`JU_K]CU7cGGF1
+R2
+I`Y17EZ4iU`Q28<o9h:DQj0
+R3
+S1
+R4
+R5
+8D:/Users/rsm7/Downloads/risc-v-single-cycle-processor/sc_alu_ctrl.sv
+FD:/Users/rsm7/Downloads/risc-v-single-cycle-processor/sc_alu_ctrl.sv
+!i122 2
+L0 32 29
+R6
+r1
+!s85 0
+31
+R7
+!s107 D:/Users/rsm7/Downloads/risc-v-single-cycle-processor/sc_alu_ctrl.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/Users/rsm7/Downloads/risc-v-single-cycle-processor/sc_alu_ctrl.sv|
+!i113 1
+R8
+R9
+vsc_control
+R0
+!s110 1789482135
+!i10b 1
+!s100 1?X1L9LKeTe@gU<O<RdRQ3
+R2
+IQ:WDKINMD9;:X:JJT_fZm2
+R3
+S1
+R4
+w1789482048
+8D:/Users/rsm7/Downloads/risc-v-single-cycle-processor/sc_control.sv
+FD:/Users/rsm7/Downloads/risc-v-single-cycle-processor/sc_control.sv
+!i122 0
+L0 25 90
+R6
+r1
+!s85 0
+31
+!s108 1789482135.000000
+!s107 D:/Users/rsm7/Downloads/risc-v-single-cycle-processor/sc_control.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/Users/rsm7/Downloads/risc-v-single-cycle-processor/sc_control.sv|
+!i113 1
+R8
+R9
+vsc_cpu
+R0
+R1
+!i10b 1
+!s100 I[@1Bgm;KZO]l6hAZIcm?2
+R2
+I4@@@ZWK3dmZDBoNXKV5OL3
+R3
+S1
+R4
+R5
+8D:/Users/rsm7/Downloads/risc-v-single-cycle-processor/sc_cpu.sv
+FD:/Users/rsm7/Downloads/risc-v-single-cycle-processor/sc_cpu.sv
+!i122 3
+L0 17 52
+R6
+r1
+!s85 0
+31
+R7
+!s107 D:/Users/rsm7/Downloads/risc-v-single-cycle-processor/sc_cpu.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/Users/rsm7/Downloads/risc-v-single-cycle-processor/sc_cpu.sv|
+!i113 1
+R8
+R9
+vsc_cpu_tb
+R0
+R1
+!i10b 1
+!s100 Jz:m]zb:VB25XJb6iMz3h2
+R2
+I4lcEoG?_QgKL@5EEQF=nG0
+R3
+S1
+R4
+R5
+8D:/Users/rsm7/Downloads/risc-v-single-cycle-processor/sc_cpu_tb.sv
+FD:/Users/rsm7/Downloads/risc-v-single-cycle-processor/sc_cpu_tb.sv
+!i122 4
+L0 47 210
+R6
+r1
+!s85 0
+31
+R7
+!s107 D:/Users/rsm7/Downloads/risc-v-single-cycle-processor/sc_cpu_tb.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/Users/rsm7/Downloads/risc-v-single-cycle-processor/sc_cpu_tb.sv|
+!i113 1
+R8
+R9
+vsc_datapath
+R0
+R1
+!i10b 1
+!s100 5D<zOoSI12M^7=PCNoc_H2
+R2
+I`SmPj34eRNk5`lTn7HcXE1
+R3
+S1
+R4
+R5
+8D:/Users/rsm7/Downloads/risc-v-single-cycle-processor/sc_datapath.sv
+FD:/Users/rsm7/Downloads/risc-v-single-cycle-processor/sc_datapath.sv
+!i122 5
+L0 28 155
+R6
+r1
+!s85 0
+31
+R7
+!s107 D:/Users/rsm7/Downloads/risc-v-single-cycle-processor/sc_datapath.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/Users/rsm7/Downloads/risc-v-single-cycle-processor/sc_datapath.sv|
+!i113 1
+R8
+R9
+vsc_dmem
+R0
+R1
+!i10b 1
+!s100 fU]`oonEimcKAnVZZEMOO0
+R2
+IK=YgFP=__bloC>2Gc8Zok2
+R3
+S1
+R4
+R5
+8D:/Users/rsm7/Downloads/risc-v-single-cycle-processor/sc_dmem.sv
+FD:/Users/rsm7/Downloads/risc-v-single-cycle-processor/sc_dmem.sv
+!i122 6
+L0 25 21
+R6
+r1
+!s85 0
+31
+R7
+!s107 D:/Users/rsm7/Downloads/risc-v-single-cycle-processor/sc_dmem.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/Users/rsm7/Downloads/risc-v-single-cycle-processor/sc_dmem.sv|
+!i113 1
+R8
+R9
+vsc_imem
+R0
+R1
+!i10b 1
+!s100 :9VLLVR@70EBi5QaQl;Q[0
+R2
+IQcnc2]cU>D8ZIG7`moPZ[2
+R3
+S1
+R4
+R5
+8D:/Users/rsm7/Downloads/risc-v-single-cycle-processor/sc_imem.sv
+FD:/Users/rsm7/Downloads/risc-v-single-cycle-processor/sc_imem.sv
+!i122 7
+L0 28 15
+R6
+r1
+!s85 0
+31
+R7
+!s107 D:/Users/rsm7/Downloads/risc-v-single-cycle-processor/sc_imem.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/Users/rsm7/Downloads/risc-v-single-cycle-processor/sc_imem.sv|
+!i113 1
+R8
+R9
+vsc_regfile
+R0
+R1
+!i10b 1
+!s100 J>:ci;E4b27QelOzBK8P^3
+R2
+I>17aJTbiSjS<kRLD@@Qc70
+R3
+S1
+R4
+R5
+8D:/Users/rsm7/Downloads/risc-v-single-cycle-processor/sc_regfile.sv
+FD:/Users/rsm7/Downloads/risc-v-single-cycle-processor/sc_regfile.sv
+!i122 8
+L0 15 41
+R6
+r1
+!s85 0
+31
+R7
+!s107 D:/Users/rsm7/Downloads/risc-v-single-cycle-processor/sc_regfile.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/Users/rsm7/Downloads/risc-v-single-cycle-processor/sc_regfile.sv|
+!i113 1
+R8
+R9
+vsc_sign_ext
+R0
+Z10 !s110 1789482137
+!i10b 1
+!s100 QCJ@z=8;ZkeI2^SCzSbA_1
+R2
+In3GX<b80M[MX@jCQ?8GJ92
+R3
+S1
+R4
+R5
+8D:/Users/rsm7/Downloads/risc-v-single-cycle-processor/sc_sign_ext.sv
+FD:/Users/rsm7/Downloads/risc-v-single-cycle-processor/sc_sign_ext.sv
+!i122 9
+L0 30 27
+R6
+r1
+!s85 0
+31
+Z11 !s108 1789482137.000000
+!s107 D:/Users/rsm7/Downloads/risc-v-single-cycle-processor/sc_sign_ext.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/Users/rsm7/Downloads/risc-v-single-cycle-processor/sc_sign_ext.sv|
+!i113 1
+R8
+R9
+vsc_top
+R0
+R10
+!i10b 1
+!s100 koOi]7k>0;H_nPRKDfg:42
+R2
+IY3dECo]SgIK:lN2aO8J8m2
+R3
+S1
+R4
+R5
+8D:/Users/rsm7/Downloads/risc-v-single-cycle-processor/sc_top.sv
+FD:/Users/rsm7/Downloads/risc-v-single-cycle-processor/sc_top.sv
+!i122 10
+L0 21 13
+R6
+r1
+!s85 0
+31
+R11
+!s107 D:/Users/rsm7/Downloads/risc-v-single-cycle-processor/sc_top.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/Users/rsm7/Downloads/risc-v-single-cycle-processor/sc_top.sv|
+!i113 1
+R8
+R9
