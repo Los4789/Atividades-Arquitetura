@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Tue Sep 29 14:35:48 2026
+Quartus Prime Version : 21.1.1 Build 850 06/23/2022 SJ Lite Edition
+Revision Name : rv_sc_cpu_mmio
+Top-level Entity Name : sc_top
+Family : Cyclone IV E
+Total logic elements : 16,676
+    Total combinational functions : 7,454
+    Dedicated logic registers : 9,418
+Total registers : 9418
+Total pins : 84
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 1
